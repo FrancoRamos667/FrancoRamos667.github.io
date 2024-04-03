@@ -1,0 +1,30 @@
+/* Estilo para las opciones del menú */
+header ul li a {
+    color: #fff; /* Color de texto blanco */
+    text-decoration: none; /* Quita subrayado del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    position: relative; /* Posición relativa para el pseudo-elemento */
+}
+
+/* Pseudo-elemento para crear el efecto de luces LED */
+header ul li a::before {
+    content: ''; /* Contenido vacío */
+    position: absolute; /* Posición absoluta con respecto al enlace */
+    top: 0; /* Alinear arriba */
+    left: 0; /* Alinear izquierda */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    background-color: rgba(0, 0, 0, 0.8); /* Color de fondo negro semitransparente */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px #007bff; /* Sombra */
+    z-index: -1; /* Colocar detrás del texto */
+    opacity: 0; /* Ocultar inicialmente */
+    transition: opacity 0.3s ease-in-out; /* Transición suave de opacidad */
+}
+
+/* Efecto de brillo al pasar el mouse */
+header ul li a:hover::before {
+    opacity: 1; /* Mostrar el efecto de brillo */
+}
+
+/* Otros estilos pueden ir aquí */

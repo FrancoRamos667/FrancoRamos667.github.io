@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Centro Construcciones</title>
+    <link rel="stylesheet" href="ESTILOS-INICIO\styloFormulario.css"> 
+    <link rel="stylesheet" href="ESTILOS-INICIO\styloQuinesSomos.css">
+    <link rel="stylesheet" href="ESTILOS-INICIO\styloGaleriaImg.css">
+    <link rel="stylesheet" href="ESTILOS-INICIO\styloPlanEstratejico.css">
+    <link rel="stylesheet" href="ESTILOS-INICIO\styleMenu.css">
+    <link rel="stylesheet" href="ESTILOS-INICIO\styloConct.css">
+    <link rel="stylesheet" href="ESTILOS-INICIO\styloMenu2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ESTILOS-INICIO/styloModo.css">
+
+    <!-- ICONS CDN FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+    <body class="construcciones-rv">
+        <header>
+            <input type="checkbox" name="" id="chk1">
+            <div class="logo" style="width: 200px; height: auto; overflow: hidden;">
+                <img class="imagen-transparente" src="img/logo.png" alt="Logo de Construcciones RV" style="width: 100%; height: auto;">
+            </div>
+            
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contactanos">Contactanos</a></li>
+                <li><a href="http://localhost/constructora/login/login.html">Login</a></li>
+                <li id="modo-oscuro-btn"><a href="#"><i class="fas fa-moon"></i></a></li> <!-- Icono de luna para modo oscuro -->
+                <script src="main.js"></script>
+            </ul>
+            <div  class="menu">
+                <label for="chk1">
+                    <i class="fa fa-bars"></i>
+                </label>
+            </div>
+            
+        </header>
+        <video id="inicio" width="100%" height="100%" controls autoplay>
+            <source src="constructora.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+
+</head>
+
+                    <!--Seccion Quines Somos lado Izquierdo-->
+<body>
+    <div id="nosotros" class="container">
+        <div class="text-section">
+            <h1>QUIENES SOMOS</h1>
+            <p>Centro Construcciones es una Empresa Argentina, de capitales nacionales, que comenzó a prestar servicios desde el año 1984 en todo el territorio de la República Argentina. Desde su comienzo focalizó su actividad en la construcción de obras, tanto públicas como privadas, desarrollándose en las diferentes ramas de la ingeniería.</p>
+            <p>En estos últimos años ha ejecutado y finalizado con éxito más de un centenar de obras en áreas de Arquitectura, Vial, Hidráulica y Saneamiento, con las más estrictas normas de calidad.</p>
+            <p>La empresa se encuentra trabajando desde hace años en la sustentabilidad de la misma, incorporando permanentemente nuevas prácticas del mercado; ampliando la capacitación constante de sus colaboradores; comprometidos con la seguridad y el cuidado del medioambiente; e incorporando equipamiento de última tecnología para estar a la vanguardia en el sector de la construcción.</p>
+        </head>
+        <body>
+            <div class="logo-texto" onclick="mostrarDescripcion('mision')">
+                <img src="img/verificacion.png" alt="Logo de Mi Empresa" class="logo">
+                <h1>MISIÓN</h1>
+            </div>
+            <div id="mision" class="hidden">
+                <p>Somos una empresa Constructora, dedicada a mejorar la calidad de vida de las personas desde
+                    la ejecución de obras claves para el desarrollo del país. Aplicamos todo el conocimiento y
+                    tecnología en la ejecución de los contratos atentos a las exigencias de nuestros clientes y
+                    comitentes, logrando un vínculo de satisfacción y confianza.</p>
+            </div>
+        
+            <div class="logo-texto" onclick="mostrarDescripcion('vision')">
+                <img src="img/verificacion.png" alt="Logo de Mi Empresa" class="logo">
+                <h2>VISIÓN</h2>
+            </div>
+            <div id="vision" class="hidden">
+                <p>Lograr la sustentabilidad de la empresa, potenciando las capacidades de nuestros
+                    colaboradores y cumpliendo con la ejecución de los contratos asumidos, desde las más
+                    estrictas normas de calidad y seguridad.</p>
+            </div>
+        
+            <div class="logo-texto" onclick="mostrarDescripcion('objetivos')">
+                <img src="img/verificacion.png" alt="Logo de Mi Empresa" class="logo">
+                <h2>VALORES</h2>
+            </div>
+            <div id="objetivos" class="hidden">
+                <p>Trabajar con RESPONSABILIDAD, guiando el TRABAJO SEGURO enfocándonos en el
+                    COMPROMISO que asumimos en cada contrato para ser más EFICIENTES y siempre respetar la
+                    mejor CALIDAD posible. Podemos garantizar que la compañía en su conjunto trabaja en pos de
+                    la SUSTENTABILIDAD.</p>
+            </div>
+            <!--Funcion para al tocar plan estratejico se muestre-->
+            <script>
+                function mostrarDescripcion(id) {
+                    const seccion = document.getElementById(id);
+                    seccion.classList.toggle("hidden");
+                }
+            </script>
+        </div>
+                            <!--Secciones Quines Somos lado Derecho-->
+        <div class="image-section">
+            <img src="img/quienesomos.png" alt="Inspector y supervisor">
+            
+                        <!-- Enlace de descarga del documento -->
+            <a href="integridad.pdf" download="integridad.pdf">
+                <img src="img/descargar-documento.png" alt="Logo de descarga">
+            </a>
+        </div>
+        
+    </div>
+    
+                        <!--Seccion Galeria de Imagenes-->
+    <div  id="galeria" class="galeria">
+        <h1>Galeria de Obras realizadas</h1>
+        <div class="linea"></div>
+        <div class="contenedor-imagenes">
+            <div class="imagen">
+                <img src="img/imagen1.jpg" alt="">
+                <div class="overlay">
+                    <h2>Proyecto de transporte Urbano para areas metropolitanas</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen2.jpg" alt="">
+                <div class="overlay">
+                    <h2>Acceso a central Nuclear 'ATUCHA II' Zarate, Bs. As.</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen3.jpg" alt="">
+                <div class="overlay">
+                    <h2>Proyecto de Transporte Urbano para Áreas Metropolitanas.</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen4.jpg" alt="">
+                <div class="overlay">
+                    <h2>Ruta Provincial N°20.</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen5.jpg" alt="">
+                <div class="overlay">
+                    <h2>Construcción de puente en RP4.</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen6.jpg" alt="">
+                <div class="overlay">
+                    <h2>Construcción de Alcaldía, capacidad 424 plazas.</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen7.jpg" alt="">
+                <div class="overlay">
+                    <h2>Construcción de viviendas en RINCON DE MILBERG.</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen8.jpg" alt="">
+                <div class="overlay">
+                    <h2>Construcción de viviendas en SAN MARTÍN.</h2>
+                </div>
+            </div>
+            <div class="imagen">
+                <img src="img/imagen9.jpg" alt="">
+                <div class="overlay">
+                    <h2>Construcción de viviendas en San Antonio de Areco.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                    <!-- Sección "Contáctate con nosotros" -->
+
+
+                    <!--  Seccion Formulario de contacto -->
+                <body id="contactanos" class="contactanos">
+                    <div class="wrapper" style="background-image: url('img/bg.jpg');">
+                        <div class="inner">
+                        <div class="image-holder">
+                            
+                            <h2>CONTÁCTATE CON NOSOTROS</h2>
+                            <p><strong>Teléfono:</strong> +1 408 224 4587</p>
+                            <p><strong>Email:</strong> livingcodedev@gmail.com</p>
+                            <p><strong>Dirección:</strong> 30 Grant Ave San Francisco CA 94108-5834, USA</p>
+                            <a href="https://www.facebook.com/francodaniel.ramos.1?mibextid=ZbWKwL" target="_blank"><img src="img/Facebokk.png" alt="Facebook"></a>
+                                <a href="https://www.instagram.com/francooramoss/" target="_blank"><img src="img\instagram.png" alt="Instagram"></a>
+                                <a href="https://www.youtube.com/@soydalto" target="_blank"><img src="img/youtube.png" alt="Twitter"></a>
+                                <a href="https://wa.me/+543705014373?text=mensaje" target="_blank"><img src="img/whatsapp.png" alt="LinkedIn"></a>
+                                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.1221079078214!2d-58.47897568522667!3d-34.550463580473235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb690d11ca38d%3A0xaccb2229711ca11!2sPinto+3847!5e0!3m2!1ses-419!2sar!4v1533169447837" frameborder="0" height="250" width="100%" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <h2>ENVÍANOS UN MENSAJE</h2>
+                                    <form action="https://formspree.io/f/xwkgrzqe" method="POST">
+                                        <div class="form-group">
+                                            <label for="name">Nombre</label>
+                                            <input type="text" name="name" id="name" required>
+                                        </div>
+                        
+                                        <div class="form-group">
+                                            <label for="email">Correo electrónico</label>
+                                            <input type="email" name="email" id="email" required>
+                                        </div>
+                        
+                                        <div class="form-group">
+                                            <label for="subject">Asunto</label>
+                                            <input type="text" name="subject" id="subject" required>
+                                        </div>
+                        
+                                        <div class="form-group">
+                                            <label for="comments">Comentarios</label>
+                                            <textarea name="comments" id="comments" cols="30" rows="5" required></textarea>
+                                        </div>
+                                        <button class="btn" type="submit">Enviar mensaje</button>
+                                    </form>
+                        </div>
+                        </div>
+    </div>
+</body>
+</html>
+

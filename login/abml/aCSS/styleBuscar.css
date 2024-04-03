@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif; /* Utiliza una fuente genérica */
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+h2 {
+    text-align: center; /* Centra el título */
+    margin-top: 20px; /* Añade un poco de espacio en la parte superior */
+}
+
+form {
+    width: 50%; /* Ancho del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    background-color: #fff; /* Color de fondo del formulario */
+    padding: 20px; /* Añade espacio interno alrededor del formulario */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+form label {
+    display: block; /* Hace que las etiquetas se muestren en una línea separada */
+    margin-bottom: 5px; /* Añade un poco de espacio inferior entre las etiquetas */
+}
+
+form input[type="text"] {
+    width: calc(100% - 80px); /* Ancho completo menos el espacio para el botón */
+    padding: 10px; /* Añade espacio interno */
+    margin-bottom: 10px; /* Añade espacio inferior */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+form input[type="submit"] {
+    width: 80px; /* Ancho fijo para el botón */
+    padding: 10px; /* Añade espacio interno */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo del botón al pasar el ratón por encima */
+}
+
+/* Estilos para la tabla de resultados */
+table {
+    width: 100%; /* Ancho de la tabla al 100% */
+    margin: 20px auto; /* Centra la tabla horizontalmente con un poco de espacio superior */
+    border-collapse: collapse; /* Colapsa los bordes de la tabla */
+}
+
+th, td {
+    padding: 12px 15px; /* Añade espacio interno a las celdas */
+    text-align: left; /* Alinea el texto a la izquierda en las celdas */
+}
+
+th {
+    background-color: #007bff; /* Color de fondo del encabezado de la tabla */
+    color: #000000; /* Color del texto del encabezado de la tabla */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+/* Estilos para los enlaces de acciones */
+a {
+    text-decoration: none; /* Quitar el subrayado predeterminado */
+    padding: 5px 10px; /* Añade espacio interno alrededor del enlace */
+    border-radius: 5px; /* Borde redondeado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+a:hover {
+    color: #ff0000; /* Cambia el color del texto del enlace al pasar el ratón por encima */
+}
+
+a.modificar {
+    background-color: #28a745; /* Color de fondo para modificar */
+    color: #fff; /* Color del texto para modificar */
+}
+
+a.eliminar {
+    background-color: #dc3545; /* Color de fondo para eliminar */
+    color: #fff; /* Color del texto para eliminar */
+}
+
+/* Estilos para el mensaje de no se encontraron resultados */
+p.no-results {
+    font-style: italic; /* Estilo cursiva para el mensaje */
+    color: #888; /* Color de texto más suave para el mensaje */
+}
+
+.i1 {
+    width: 20px;
+    height: 20px;
+}

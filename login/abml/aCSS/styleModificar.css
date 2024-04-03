@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif; /* Utiliza una fuente genérica */
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+h2 {
+    text-align: center; /* Centra el título */
+    margin-top: 20px; /* Añade un poco de espacio en la parte superior */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+form {
+    width: 55%; /* Ancho del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+    background-color: #ffffff; /* Color de fondo del formulario */
+    padding: 35px; /* Añade espacio interno alrededor del formulario */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+form label {
+    display: block; /* Hace que las etiquetas se muestren en una línea separada */
+    margin-bottom: 5px; /* Añade un poco de espacio inferior entre las etiquetas */
+    font-size: 20px;
+}
+
+form input[type="text"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Añade espacio interno */
+    margin-bottom: 10px; /* Añade espacio inferior */
+    border: 1px solid #000000; /* Borde del input */
+    border-radius: 5px; /* Borde redondeado */
+    background-color: rgba(0, 217, 255, 0.418);
+    font-size: 18px;
+}
+
+form input[type="submit"] {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Añade espacio interno */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #000000; /* Color del texto del botón */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 25px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #008cffd3; /* Cambia el color de fondo del botón al pasar el ratón por encima */
+}
+
+a {
+    display: block; /* Hace que los enlaces se muestren en una línea separada */
+    text-align: center; /* Centra el texto del enlace */
+    margin-top: 20px; /* Añade un poco de espacio en la parte superior */
+    color: #000000; /* Color del texto del enlace */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #ff0000; /* Cambia el color del texto del enlace al pasar el ratón por encima */
+}
+
+input[type="date"],
+        input[type="text"],
+        textarea {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        input[type="date"] {
+            /* Personaliza el estilo del input de tipo date */
+            width: 100%;
+        }
+
+        textarea {
+            /* Personaliza el estilo del textarea */
+            width: 100%;
+            height: 100px; /* Ajusta la altura según sea necesario */
+        }

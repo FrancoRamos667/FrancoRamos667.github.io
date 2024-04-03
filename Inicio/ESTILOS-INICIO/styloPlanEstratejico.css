@@ -1,0 +1,13 @@
+
+/* Estilo para alinear el logotipo junto al texto */
+.logo-texto {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 10px; /* Espacio entre el logotipo y el texto */
+}
+.hidden {
+    display: none; /* Oculta las secciones por defecto */
+}
+

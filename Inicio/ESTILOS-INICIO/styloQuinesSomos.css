@@ -1,0 +1,81 @@
+header {
+    background-color: #6eb5ff; /* Color azul más claro */
+    height: 70px; /* Altura de la barra */
+    padding: 10px; /* Espaciado interno */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del eje principal (horizontal) */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.logo img {
+    width: 250px; /* Ancho de la imagen del logo */
+}
+
+.link {
+    color: #000; /* Color del texto (negro) */
+    margin-left: 20px; /* Espaciado izquierdo entre enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.link:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left,
+.content-right {
+    width: 48%;
+}
+
+.content-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .content-left,
+    .content-right {
+        width: 100%;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.text-section {
+    flex: 1;
+    padding-right: 20px;
+}
+.image-section {
+    flex: 1;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
